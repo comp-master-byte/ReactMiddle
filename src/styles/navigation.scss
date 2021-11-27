@@ -1,0 +1,29 @@
+.header-logo{
+    display: flex;
+    align-items: center;
+
+    &__title {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        flex-basis: 10%;
+        margin-left: 24px;
+    }
+}
+
+.header-navigation{
+    color: #fff;
+    &__item {
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
